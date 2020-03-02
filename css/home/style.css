@@ -1,0 +1,1813 @@
+html,
+body {
+    margin: 0 auto;
+}
+
+#mentorship-navbar {
+    background: rgba(25, 107, 105, 1) !important;
+    min-height:  120px !important;
+    color: #fff !important;
+}
+#YP-logo-text{
+  font-size: 55px;
+  font-weight: 900;
+  font-family: roboto;
+  color: #fff;
+}
+#navbar-group{
+    min-width: 60%;
+    display: inline-flex;
+    margin: auto;
+}
+ul.navbar-nav{
+    flex: auto;
+    display:contents;
+    margin: 0 auto;
+}
+ul.navbar-nav > li.nav-item{
+    color: #fff !important;
+}
+ul.navbar-nav > li.nav-item > a.nav-link{
+    color: #fff !important;
+}
+li.nav-item{
+    padding: 10px;
+}
+.mediaViewInfo {
+    --web-view-name: Home;
+    --web-view-id: Home;
+    --web-scale-on-resize: true;
+    --web-enable-deep-linking: true;
+}
+
+:root {
+    --web-view-ids: Home;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: none;
+}
+
+#Home {
+    position: absolute;
+    width: 100%;
+    height: 3536px;
+    background-color: rgba(232, 241, 241, 1);
+    overflow: hidden;
+    --web-view-name: Home;
+    --web-view-id: Home;
+    --web-scale-on-resize: true;
+    --web-enable-deep-linking: true;
+}
+
+#hero{
+min-height: 556px;
+max-height: 656px;
+color:#fff;
+text-align: center;
+font-weight: 900;
+opacity: 0.8;
+}
+#Component_20___1 {
+    position: absolute;
+    width: 29.121px;
+    height: 29px;
+    left: 1227px;
+    top: 77px;
+   
+}
+
+/* .Rectangle_250 {
+    position: absolute;
+   
+    width: 29px;
+    height: 29px;
+    left: 0px;
+    top: 0px;
+}
+
+.Rectangle_251 {
+    position: absolute;
+   
+    width: 29px;
+    height: 5.487px;
+    left: 0px;
+    top: 2.674px;
+}
+
+.Rectangle_252 {
+    position: absolute;
+   
+    width: 29px;
+    height: 5.487px;
+    left: 0px;
+    top: 11.682px;
+}
+
+.Rectangle_253 {
+    position: absolute;
+   
+    width: 29.121px;
+    height: 5.487px;
+    left: 0px;
+    top: 20.595px;
+} */
+
+.Master_Components_header_bg {
+    filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.161));
+    position: absolute;
+    width:100%;
+    height: 120px;
+    left: 0px;
+    top: 0px;
+}
+
+/* #Group_3123 {
+    position: absolute;
+    width: 512px;
+    height: 21px;
+    left: 441px;
+    top: 41px;
+   
+}
+
+#header5 {
+    position: absolute;
+    width: 44px;
+    height: 21px;
+    left: 0px;
+    top: 0px;
+   
+}
+
+#Home_ {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+   
+    width: 45px;
+    height: 21px;
+    line-height: 28px;
+    margin-top: -6px;
+    text-align: left;
+    font-family: Forma DJR Micro;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    color: rgba(255, 255, 255, 1);
+}
+
+#header5_ {
+    position: absolute;
+    width: 50px;
+    height: 21px;
+    left: 84px;
+    top: 0px;
+   
+}
+
+#Career {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+   
+    width: 51px;
+    height: 21px;
+    line-height: 28px;
+    margin-top: -6px;
+    text-align: left;
+    font-family: Forma DJR Micro;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    color: rgba(255, 255, 255, 1);
+}
+
+#header5_ba {
+    position: absolute;
+    width: 70px;
+    height: 21px;
+    left: 298px;
+    top: 0px;
+   
+}
+
+#Meeting {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+   
+    width: 71px;
+    height: 21px;
+    line-height: 28px;
+    margin-top: -6px;
+    text-align: left;
+    font-family: Forma DJR Micro;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    color: rgba(255, 255, 255, 1);
+}
+
+#header5_bb {
+    position: absolute;
+    width: 104px;
+    height: 21px;
+    left: 408px;
+    top: 0px;
+   
+}
+
+#Membership {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+   
+    width: 105px;
+    height: 21px;
+    line-height: 28px;
+    margin-top: -6px;
+    text-align: left;
+    font-family: Forma DJR Micro;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    color: rgba(255, 255, 255, 1);
+}
+
+#header5_bc {
+    position: absolute;
+    width: 84px;
+    height: 21px;
+    left: 174px;
+    top: 0px;
+   
+}
+
+#Publication {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+   
+    width: 85px;
+    height: 21px;
+    line-height: 28px;
+    margin-top: -6px;
+    text-align: left;
+    font-family: Forma DJR Micro;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    color: rgba(255, 255, 255, 1);
+}
+
+#Group_3128 {
+    position: absolute;
+    width: 225px;
+    height: 37px;
+    left: 1033px;
+    top: 33px;
+   
+}
+
+.Rectangle_614 {
+    position: absolute;
+   
+    width: 225px;
+    height: 37px;
+    left: 0px;
+    top: 0px;
+}
+
+#Group_3121 {
+    position: absolute;
+    width: 191px;
+    height: 21px;
+    left: 17px;
+    top: 8px;
+   
+}
+
+#search {
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    left: 175px;
+    top: 1px;
+   
+}
+
+#Group_3011 {
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    left: 0px;
+    top: 0px;
+   
+}
+
+.Path_3955 {
+   
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    left: 0px;
+    top: 0px;
+    transform: matrix(1, 0, 0, 1, 0, 0);
+}
+
+#header5_bj {
+    position: absolute;
+    width: 62px;
+    height: 21px;
+    left: 0px;
+    top: 0px;
+   
+}
+
+#Search_bk {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+   
+    width: 63px;
+    height: 21px;
+    line-height: 28px;
+    margin-top: -6px;
+    text-align: left;
+    font-family: Forma DJR Micro;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    color: rgba(112, 112, 112, 1);
+}
+
+#Group_3136 {
+    position: absolute;
+    width: 67px;
+    height: 62px;
+    left: 1298px;
+    top: 20px;
+   
+}
+
+#Group_3134 {
+    position: absolute;
+    width: 67px;
+    height: 22px;
+    left: 0px;
+    top: 40px;
+   
+}
+
+#paragraph {
+    position: absolute;
+    width: 39px;
+    height: 21px;
+    left: 28px;
+    top: 0px;
+   
+}
+
+#Login {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+   
+    width: 40px;
+    white-space: nowrap;
+    line-height: 26px;
+    margin-top: -5px;
+    text-align: left;
+    font-family: Interstate;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    color: rgba(255, 255, 255, 1);
+}
+
+#logout__1_ {
+    position: absolute;
+    width: 17px;
+    height: 17px;
+    left: 0px;
+    top: 5px;
+   
+}
+
+.Path_3960 {
+   
+    position: absolute;
+    width: 12.75px;
+    height: 17px;
+    left: 0px;
+    top: 0px;
+    transform: matrix(1, 0, 0, 1, 0, 0);
+}
+
+.Path_3961 {
+   
+    position: absolute;
+    width: 9.563px;
+    height: 7.877px;
+    left: 7.438px;
+    top: 4.561px;
+    transform: matrix(1, 0, 0, 1, 0, 0);
+}
+
+#Group_3135 {
+    position: absolute;
+    width: 56px;
+    height: 21px;
+    left: 0px;
+    top: 0px;
+   
+}
+
+#Group_3127 {
+    position: absolute;
+    width: 17px;
+    height: 17px;
+    left: 0px;
+    top: 4px;
+   
+}
+
+#Group_3126 {
+    position: absolute;
+    width: 17px;
+    height: 17px;
+    left: 0px;
+    top: 0px;
+   
+}
+
+#add {
+    position: absolute;
+    width: 17px;
+    height: 17px;
+    left: 0px;
+    top: 0px;
+   
+}
+
+#Group_3125 {
+    position: absolute;
+    width: 17px;
+    height: 17px;
+    left: 0px;
+    top: 0px;
+   
+}
+
+#Group_3124 {
+    position: absolute;
+    width: 17px;
+    height: 17px;
+    left: 0px;
+    top: 0px;
+   
+}
+
+.Path_3956 {
+   
+    position: absolute;
+    width: 7.727px;
+    height: 7.727px;
+    left: 0px;
+    top: 0px;
+    transform: matrix(1, 0, 0, 1, 0, 0);
+}
+
+.Path_3957 {
+   
+    position: absolute;
+    width: 7.727px;
+    height: 7.727px;
+    left: 9.273px;
+    top: 0px;
+    transform: matrix(1, 0, 0, 1, 0, 0);
+}
+
+.Path_3958 {
+   
+    position: absolute;
+    width: 7.727px;
+    height: 7.727px;
+    left: 0px;
+    top: 9.273px;
+    transform: matrix(1, 0, 0, 1, 0, 0);
+}
+
+.Path_3959 {
+   
+    position: absolute;
+    width: 4.636px;
+    height: 4.636px;
+    left: 10.818px;
+    top: 10.818px;
+    transform: matrix(1, 0, 0, 1, 0, 0);
+}
+
+#paragraph_b {
+    position: absolute;
+    width: 28px;
+    height: 21px;
+    left: 28px;
+    top: 0px;
+   
+}
+
+#Join {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+   
+    width: 29px;
+    white-space: nowrap;
+    line-height: 26px;
+    margin-top: -5px;
+    text-align: left;
+    font-family: Interstate;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    color: rgba(255, 255, 255, 1);
+}
+
+#Group_3132 {
+    position: absolute;
+    width: 301px;
+    height: 74px;
+    left: 101px;
+    top: 11px;
+   
+}
+
+#NAPE_logo2_1 {
+    position: absolute;
+    width: 300px;
+    height: 59px;
+    left: 0px;
+    top: 15px;
+   
+}
+
+#YP {
+    position: absolute;
+    left: 231px;
+    top: 0px;
+   
+    width: 71px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 55px;
+    color: rgba(255, 255, 255, 1);
+}
+
+#Group_3143 {
+    position: absolute;
+    width: 1466px;
+    height: 512px;
+    left: 0px;
+    top: 3024px;
+   
+}
+
+.Rectangle_612 {
+    position: absolute;
+   
+    width: 1466px;
+    height: 512px;
+    left: 0px;
+    top: 0px;
+}
+
+#__Copyright_2020_Nape_YP___All {
+    position: absolute;
+    left: 102px;
+    top: 442px;
+   
+    width: 441px;
+    height: 55px;
+    line-height: 27px;
+    margin-top: -5.5px;
+    text-align: left;
+    font-family: SF Pro Display;
+    font-style: normal;
+    font-weight: lighter;
+    font-size: 16px;
+    color: rgba(255, 255, 255, 1);
+}
+
+#NAPE_is_the_largest_profession {
+    position: absolute;
+    left: 100px;
+    top: 174px;
+   
+    width: 362px;
+    height: 135px;
+    line-height: 27px;
+    margin-top: -5.5px;
+    text-align: left;
+    font-family: SF Pro Display;
+    font-style: normal;
+    font-weight: lighter;
+    font-size: 16px;
+    color: rgba(255, 255, 255, 1);
+}
+
+#NAPE__our_ideas_find_oil_and_g {
+    position: absolute;
+    left: 100px;
+    top: 360px;
+   
+    width: 256px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: SF Pro Display;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    color: rgba(255, 255, 255, 1);
+}
+
+#Group_3139 {
+    position: absolute;
+    width: 90px;
+    height: 225px;
+    left: 831px;
+    top: 66px;
+   
+}
+
+#Mentor_Info {
+    position: absolute;
+    left: 0px;
+    top: 51px;
+   
+    width: 80px;
+    white-space: nowrap;
+    line-height: 17px;
+    margin-top: -0.5px;
+    text-align: left;
+    font-family: SF Pro Display;
+    font-style: normal;
+    font-weight: lighter;
+    font-size: 16px;
+    color: rgba(255, 255, 255, 1);
+}
+
+#Mentee_Info {
+    position: absolute;
+    left: 0px;
+    top: 102px;
+   
+    width: 82px;
+    white-space: nowrap;
+    line-height: 17px;
+    margin-top: -0.5px;
+    text-align: left;
+    font-family: SF Pro Display;
+    font-style: normal;
+    font-weight: lighter;
+    font-size: 16px;
+    color: rgba(255, 255, 255, 1);
+}
+
+#Administrator {
+    position: absolute;
+    left: 0px;
+    top: 153px;
+   
+    width: 91px;
+    white-space: nowrap;
+    line-height: 17px;
+    margin-top: -0.5px;
+    text-align: left;
+    font-family: SF Pro Display;
+    font-style: normal;
+    font-weight: lighter;
+    font-size: 16px;
+    color: rgba(255, 255, 255, 1);
+}
+
+#Sponsor {
+    position: absolute;
+    left: 0px;
+    top: 204px;
+   
+    width: 56px;
+    white-space: nowrap;
+    line-height: 17px;
+    margin-top: -0.5px;
+    text-align: left;
+    font-family: SF Pro Display;
+    font-style: normal;
+    font-weight: lighter;
+    font-size: 16px;
+    color: rgba(255, 255, 255, 1);
+}
+
+#Nape_YP {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+   
+    width: 65px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: SF Pro Display;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    color: rgba(255, 255, 255, 1);
+}
+
+#Group_3138 {
+    position: absolute;
+    width: 90px;
+    height: 276px;
+    left: 601px;
+    top: 66px;
+   
+}
+
+#Group_3137 {
+    position: absolute;
+    width: 84px;
+    height: 225px;
+    left: 0px;
+    top: 51px;
+   
+}
+
+#Home_ck {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+   
+    width: 42px;
+    white-space: nowrap;
+    line-height: 17px;
+    margin-top: -0.5px;
+    text-align: left;
+    font-family: SF Pro Display;
+    font-style: normal;
+    font-weight: lighter;
+    font-size: 16px;
+    color: rgba(255, 255, 255, 1);
+}
+
+#Career_cl {
+    position: absolute;
+    left: 0px;
+    top: 51px;
+   
+    width: 45px;
+    white-space: nowrap;
+    line-height: 17px;
+    margin-top: -0.5px;
+    text-align: left;
+    font-family: SF Pro Display;
+    font-style: normal;
+    font-weight: lighter;
+    font-size: 16px;
+    color: rgba(255, 255, 255, 1);
+}
+
+#Meeting_cm {
+    position: absolute;
+    left: 0px;
+    top: 204px;
+   
+    width: 56px;
+    white-space: nowrap;
+    line-height: 17px;
+    margin-top: -0.5px;
+    text-align: left;
+    font-family: SF Pro Display;
+    font-style: normal;
+    font-weight: lighter;
+    font-size: 16px;
+    color: rgba(255, 255, 255, 1);
+}
+
+#Membership_cn {
+    position: absolute;
+    left: 0px;
+    top: 102px;
+   
+    width: 85px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: SF Pro Display;
+    font-style: normal;
+    font-weight: lighter;
+    font-size: 16px;
+    color: rgba(255, 255, 255, 1);
+}
+
+#Publication_co {
+    position: absolute;
+    left: 0px;
+    top: 153px;
+   
+    width: 74px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: SF Pro Display;
+    font-style: normal;
+    font-weight: lighter;
+    font-size: 16px;
+    color: rgba(255, 255, 255, 1);
+}
+
+#Nape_Home {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+   
+    width: 91px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: SF Pro Display;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    color: rgba(255, 255, 255, 1);
+}
+
+#Group_3140 {
+    position: absolute;
+    width: 332px;
+    height: 269px;
+    left: 1052px;
+    top: 66px;
+   
+}
+
+#ID47A_Femi_Okunnu_Housing_Esta {
+    position: absolute;
+    left: 0px;
+    top: 51px;
+    overflow: hidden;
+    width: 316px;
+    height: 57px;
+    line-height: 17px;
+    margin-top: -0.5px;
+    text-align: left;
+    font-family: SF Pro Display;
+    font-style: normal;
+    font-weight: lighter;
+    font-size: 16px;
+    color: rgba(255, 255, 255, 1);
+}
+
+#_234_01_3429082___909_2143198 {
+    position: absolute;
+    left: 0px;
+    top: 138px;
+   
+    width: 258px;
+    height: 26px;
+    line-height: 17px;
+    margin-top: -0.5px;
+    text-align: left;
+    font-family: SF Pro Display;
+    font-style: normal;
+    font-weight: lighter;
+    font-size: 16px;
+    color: rgba(255, 255, 255, 1);
+}
+
+#info_napeyp_org {
+    position: absolute;
+    left: 0px;
+    top: 194px;
+    overflow: hidden;
+    width: 333px;
+    height: 15px;
+    line-height: 17px;
+    margin-top: -0.5px;
+    text-align: left;
+    font-family: SF Pro Display;
+    font-style: normal;
+    font-weight: lighter;
+    font-size: 16px;
+    color: rgba(255, 255, 255, 1);
+}
+
+#Contact_Us {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+   
+    width: 82px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: SF Pro Display;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    color: rgba(255, 255, 255, 1);
+}
+
+#Group_666 {
+    position: absolute;
+    width: 138px;
+    height: 30px;
+    left: 0px;
+    top: 239px;
+   
+}
+
+#ic_facebook {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    left: 0px;
+    top: 0px;
+   
+}
+
+.Rectangle_163 {
+    position: absolute;
+   
+    width: 30px;
+    height: 30px;
+    left: 0px;
+    top: 0px;
+}
+
+.ic_facebook_cy {
+   
+    position: absolute;
+    width: 6.703px;
+    height: 13px;
+    left: 12px;
+    top: 9px;
+    transform: matrix(1, 0, 0, 1, 0, 0);
+}
+
+#ic_twitter {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    left: 54px;
+    top: 0px;
+   
+}
+
+.Rectangle_164 {
+    position: absolute;
+   
+    width: 30px;
+    height: 30px;
+    left: 0px;
+    top: 0px;
+}
+
+.ic_twitter_c {
+   
+    position: absolute;
+    width: 15.785px;
+    height: 13px;
+    left: 7px;
+    top: 9px;
+    transform: matrix(1, 0, 0, 1, 0, 0);
+}
+
+#ic_linkedin {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    left: 108px;
+    top: 0px;
+   
+}
+
+.Rectangle_165 {
+    position: absolute;
+   
+    width: 30px;
+    height: 30px;
+    left: 0px;
+    top: 0px;
+}
+
+.ic_linkedin_c {
+   
+    position: absolute;
+    width: 13.015px;
+    height: 13px;
+    left: 8px;
+    top: 8px;
+    transform: matrix(1, 0, 0, 1, 0, 0);
+}
+
+#NAPE_logo2_1_c {
+    position: absolute;
+    width: 300px;
+    height: 59px;
+    left: 100px;
+    top: 65px;
+   
+}
+
+.Line_703 {
+   
+    position: absolute;
+    width: 1269px;
+    height: 1px;
+    left: 100.5px;
+    top: 411.5px;
+    transform: matrix(1, 0, 0, 1, 0, 0);
+}
+
+#p {
+    position: absolute;
+    width: 467px;
+    height: 311px;
+    left: 101px;
+    top: 950px;
+   
+}
+
+#Nape_Young_professional__is_a_ {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+   
+    width: 468px;
+    height: 311px;
+    line-height: 24px;
+    margin-top: -4.5px;
+    text-align: left;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    color: rgba(119, 120, 123, 1);
+}
+
+#header1 {
+    position: absolute;
+    width: 616px;
+    height: 84px;
+    left: 101px;
+    top: 881px;
+   
+}
+
+#About_Nape_Mentoring {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+   
+    width: 617px;
+    height: 84px;
+    line-height: 50px;
+    margin-top: -7px;
+    text-align: left;
+    font-family: Sofia Pro;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    color: rgba(54, 55, 57, 1);
+}
+
+#button {
+    position: absolute;
+    width: 136px;
+    height: 48px;
+    left: 101px;
+    top: 1301px;
+   
+}
+
+.Path_3962 {
+   
+    position: absolute;
+    width: 135px;
+    height: 48px;
+    left: 0.5px;
+    top: 0px;
+    transform: matrix(1, 0, 0, 1, 0, 0);
+}
+
+#READ_MORE {
+    position: absolute;
+    left: 0px;
+    top: 17px;
+    overflow: hidden;
+    width: 137px;
+    height: 14px;
+    line-height: 24px;
+    margin-top: -4.5px;
+    text-align: center;
+    font-family: Sofia Pro;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    color: rgba(255, 255, 255, 1);
+}
+
+#Group_3146 {
+    position: absolute;
+    width: 547px;
+    height: 308px;
+    left: 818px;
+    top: 881px;
+   
+}
+
+#Group_3144 {
+    position: absolute;
+    width: 412px;
+    height: 184px;
+    left: 0px;
+    top: 0px;
+   
+}
+
+#Mask_Group_3 {
+    position: absolute;
+    width: 411px;
+    height: 184px;
+    left: 0px;
+    top: 0px;
+   
+}
+
+#Rectangle_621 {
+    opacity: 0.55;
+}
+
+.Rectangle_621 {
+    position: absolute;
+   
+    width: 412px;
+    height: 184px;
+    left: 0px;
+    top: 0px;
+}
+
+#Group_3145 {
+    position: absolute;
+    width: 412px;
+    height: 184px;
+    left: 135px;
+    top: 124px;
+   
+}
+
+#Mask_Group_3_dl {
+    position: absolute;
+    width: 411px;
+    height: 184px;
+    left: 0px;
+    top: 0px;
+   
+}
+
+#Rectangle_621_do {
+    opacity: 0.55;
+}
+
+.Rectangle_621_do {
+    position: absolute;
+   
+    width: 412px;
+    height: 184px;
+    left: 0px;
+    top: 0px;
+}
+
+#Group_3152 {
+    position: absolute;
+    width: 1333px;
+    height: 468px;
+    left: 101px;
+    top: 1439px;
+   
+}
+
+#p_dq {
+    position: absolute;
+    width: 467px;
+    height: 311px;
+    left: 717px;
+    top: 69px;
+   
+}
+
+#Nape_Young_professional__is_a__dr {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+   
+    width: 468px;
+    height: 311px;
+    line-height: 24px;
+    margin-top: -4.5px;
+    text-align: left;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    color: rgba(119, 120, 123, 1);
+}
+
+#header1_ds {
+    position: absolute;
+    width: 616px;
+    height: 84px;
+    left: 717px;
+    top: 0px;
+   
+}
+
+#Program_Overview {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+   
+    width: 617px;
+    height: 84px;
+    line-height: 50px;
+    margin-top: -7px;
+    text-align: left;
+    font-family: Sofia Pro;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    color: rgba(54, 55, 57, 1);
+}
+
+#button_du {
+    position: absolute;
+    width: 136px;
+    height: 48px;
+    left: 717px;
+    top: 420px;
+   
+}
+
+.Path_3962_dv {
+   
+    position: absolute;
+    width: 135px;
+    height: 48px;
+    left: 0.5px;
+    top: 0px;
+    transform: matrix(1, 0, 0, 1, 0, 0);
+}
+
+#READ_MORE_dw {
+    position: absolute;
+    left: 0px;
+    top: 17px;
+    overflow: hidden;
+    width: 137px;
+    height: 14px;
+    line-height: 24px;
+    margin-top: -4.5px;
+    text-align: center;
+    font-family: Sofia Pro;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    color: rgba(255, 255, 255, 1);
+}
+
+#Group_3146_dx {
+    position: absolute;
+    width: 547px;
+    height: 308px;
+    left: 0px;
+    top: 0px;
+   
+}
+
+#Group_3144_dy {
+    position: absolute;
+    width: 412px;
+    height: 184px;
+    left: 0px;
+    top: 0px;
+   
+}
+
+#Mask_Group_3_dz {
+    position: absolute;
+    width: 411px;
+    height: 184px;
+    left: 0px;
+    top: 0px;
+   
+}
+
+#Rectangle_621_d {
+    opacity: 0.55;
+}
+
+.Rectangle_621_d {
+    position: absolute;
+   
+    width: 412px;
+    height: 184px;
+    left: 0px;
+    top: 0px;
+}
+
+#Group_3145_d {
+    position: absolute;
+    width: 412px;
+    height: 184px;
+    left: 135px;
+    top: 124px;
+   
+}
+
+#Mask_Group_3_d {
+    position: absolute;
+    width: 411px;
+    height: 184px;
+    left: 0px;
+    top: 0px;
+   
+}
+
+#Rectangle_621_ea {
+    opacity: 0.55;
+}
+
+.Rectangle_621_ea {
+    position: absolute;
+   
+    width: 412px;
+    height: 184px;
+    left: 0px;
+    top: 0px;
+}
+
+.Rectangle_622 {
+    position: absolute;
+   
+    width: 1466px;
+    height: 957px;
+    left: 0px;
+    top: 1993px;
+}
+
+.Rectangle_623 {
+    filter: drop-shadow(0px 6px 6px rgba(0, 0, 0, 0.161));
+    position: absolute;
+   
+    width: 1292px;
+    height: 827px;
+    left: 96px;
+    top: 2067px;
+}
+
+#p_ea {
+    position: absolute;
+    width: 467px;
+    height: 144px;
+    left: 186px;
+    top: 2552px;
+   
+}
+
+#Mentoring365_is_a_virtual_ment {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+   
+    width: 468px;
+    height: 144px;
+    line-height: 24px;
+    margin-top: -4.5px;
+    text-align: center;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    color: rgba(119, 120, 123, 1);
+}
+
+#header1_ec {
+    position: absolute;
+    width: 352px;
+    height: 84px;
+    left: 244px;
+    top: 2483px;
+   
+}
+
+#Nape_YP_Mentoring {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+   
+    width: 353px;
+    height: 84px;
+    line-height: 50px;
+    margin-top: -7px;
+    text-align: left;
+    font-family: Sofia Pro;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    color: rgba(54, 55, 57, 1);
+}
+
+#Group_3150 {
+    position: absolute;
+    width: 343.5px;
+    height: 48px;
+    left: 248px;
+    top: 2736px;
+   
+}
+
+#button_ef {
+    position: absolute;
+    width: 167px;
+    height: 48px;
+    left: 0px;
+    top: 0px;
+   
+}
+
+.Rectangle_327 {
+    position: absolute;
+   
+    width: 167px;
+    height: 48px;
+    left: 0px;
+    top: 0px;
+}
+
+#FIND_OUT_MORE {
+    position: absolute;
+    left: 15.5px;
+    top: 17px;
+    overflow: hidden;
+    width: 137px;
+    height: 14px;
+    line-height: 24px;
+    margin-top: -4.5px;
+    text-align: center;
+    font-family: Sofia Pro;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    color: rgba(255, 255, 255, 1);
+}
+
+#button_ei {
+    position: absolute;
+    width: 136px;
+    height: 48px;
+    left: 207.5px;
+    top: 0px;
+   
+}
+
+.Rectangle_327_ej {
+    position: absolute;
+   
+    width: 135px;
+    height: 48px;
+    left: 0.5px;
+    top: 0px;
+}
+
+#JOIN_NOW {
+    position: absolute;
+    left: 0px;
+    top: 17px;
+    overflow: hidden;
+    width: 137px;
+    height: 14px;
+    line-height: 24px;
+    margin-top: -4.5px;
+    text-align: center;
+    font-family: Sofia Pro;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    color: rgba(255, 255, 255, 1);
+}
+
+#Group_3151 {
+    position: absolute;
+    width: 343.5px;
+    height: 48px;
+    left: 872px;
+    top: 2736px;
+   
+}
+
+#button_em {
+    position: absolute;
+    width: 167px;
+    height: 48px;
+    left: 0px;
+    top: 0px;
+   
+}
+
+.Rectangle_327_en {
+    position: absolute;
+   
+    width: 167px;
+    height: 48px;
+    left: 0px;
+    top: 0px;
+}
+
+#FIND_OUT_MORE_eo {
+    position: absolute;
+    left: 15.5px;
+    top: 17px;
+    overflow: hidden;
+    width: 137px;
+    height: 14px;
+    line-height: 24px;
+    margin-top: -4.5px;
+    text-align: center;
+    font-family: Sofia Pro;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    color: rgba(255, 255, 255, 1);
+}
+
+#button_ep {
+    position: absolute;
+    width: 136px;
+    height: 48px;
+    left: 207.5px;
+    top: 0px;
+   
+}
+
+.Rectangle_327_eq {
+    position: absolute;
+   
+    width: 135px;
+    height: 48px;
+    left: 0.5px;
+    top: 0px;
+}
+
+#JOIN_NOW_er {
+    position: absolute;
+    left: 0px;
+    top: 17px;
+    overflow: hidden;
+    width: 137px;
+    height: 14px;
+    line-height: 24px;
+    margin-top: -4.5px;
+    text-align: center;
+    font-family: Sofia Pro;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    color: rgba(255, 255, 255, 1);
+}
+
+#Group_3148 {
+    position: absolute;
+    width: 567px;
+    height: 305px;
+    left: 136px;
+    top: 2128px;
+   
+}
+
+.Rectangle_625 {
+    filter: drop-shadow(0px 6px 6px rgba(0, 0, 0, 0.161));
+    position: absolute;
+   
+    width: 585px;
+    height: 323px;
+    left: 0px;
+    top: 0px;
+}
+
+#original__1_ {
+    position: absolute;
+    width: 567px;
+    height: 305px;
+    left: 0px;
+    top: 0px;
+   
+}
+
+#p_ev {
+    position: absolute;
+    width: 467px;
+    height: 144px;
+    left: 810px;
+    top: 2552px;
+   
+}
+
+#Nape_YP_Live_is_the_in_person_ {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+   
+    width: 468px;
+    height: 144px;
+    line-height: 24px;
+    margin-top: -4.5px;
+    text-align: center;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    color: rgba(119, 120, 123, 1);
+}
+
+#header1_ex {
+    position: absolute;
+    width: 434px;
+    height: 84px;
+    left: 827px;
+    top: 2483px;
+   
+}
+
+#Nape_YP_Mentoring_Live {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+   
+    width: 435px;
+    height: 84px;
+    line-height: 50px;
+    margin-top: -7px;
+    text-align: left;
+    font-family: Sofia Pro;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    color: rgba(54, 55, 57, 1);
+}
+
+#Group_3148_ez {
+    position: absolute;
+    width: 567px;
+    height: 305px;
+    left: 760px;
+    top: 2128px;
+   
+}
+
+.Rectangle_625_e {
+    filter: drop-shadow(0px 6px 6px rgba(0, 0, 0, 0.161));
+    position: absolute;
+   
+    width: 585px;
+    height: 323px;
+    left: 0px;
+    top: 0px;
+}
+
+#original__1__e {
+    position: absolute;
+    width: 567px;
+    height: 305px;
+    left: 0px;
+    top: 0px;
+   
+}
+
+#ar_blog_young_professionals_co {
+    position: absolute;
+    width: 1565.5px;
+    height: 656px;
+    left: 0px;
+    top: 102px;
+   
+}
+
+#Rectangle_618 {
+    opacity: 0.8;
+}
+
+.Rectangle_618 {
+    position: absolute;
+   
+    width: 1466px;
+    height: 656px;
+    left: 0px;
+    top: 102px;
+}
+
+#Group_3142 {
+    position: absolute;
+    width: 1283px;
+    height: 255px;
+    left: 101px;
+    top: 302px;
+   
+}
+
+#Join_us_now_to_develop_profess {
+    position: absolute;
+    left: 0px;
+    top: 155px;
+   
+    width: 668px;
+    height: 100px;
+    line-height: 35px;
+    margin-top: -6.5px;
+    text-align: left;
+    font-family: Forma DJR Micro;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    color: rgba(248, 246, 251, 1);
+}
+
+#Welcome_to_Nape_Mentoring {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+   
+    width: 1284px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Segoe UI;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 90px;
+    color: rgba(228, 228, 228, 1);
+}
+
+#Mask_Group_8 {
+    position: absolute;
+    width: 567px;
+    height: 305px;
+    left: 760px;
+    top: 2128px;
+   
+}
+
+#Mask_Group_9 {
+    position: absolute;
+    width: 567px;
+    height: 305px;
+    left: 137px;
+    top: 2128px;
+   
+}
+
+#Mask_Group_11 {
+    position: absolute;
+    width: 412px;
+    height: 184px;
+    left: 820px;
+    top: 881px;
+   
+}
+
+#Mask_Group_15 {
+    position: absolute;
+    width: 412px;
+    height: 184px;
+    left: 101px;
+    top: 1439px;
+   
+}
+
+#Mask_Group_13 {
+    position: absolute;
+    width: 412px;
+    height: 184px;
+    left: 950px;
+    top: 1005px;
+   
+}
+
+#Mask_Group_17 {
+    position: absolute;
+    width: 412px;
+    height: 184px;
+    left: 231px;
+    top: 1563px;
+   
+} */
