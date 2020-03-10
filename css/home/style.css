@@ -69,7 +69,20 @@ max-height: 656px;
 color:#fff;
 text-align: center;
 font-weight: 900;
-opacity: 0.8;
+background-attachment: fixed !important;
+background:linear-gradient(rgba(3, 3, 3, 0.82), rgba(3, 3, 3, 0.45)), url('../../image/home/hero.png') !important;
+}
+#hero > article{
+padding: 50px !important;
+}
+#hero > article > h1{
+    font-size: 70px;
+    font-weight: 900;
+}
+#hero > article > p{
+    font-size: 22px;
+    font-weight: 400;
+    color: #fff;
 }
 #Component_20___1 {
     position: absolute;
