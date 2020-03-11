@@ -54,7 +54,6 @@ li.nav-item{
 #Home {
     position: absolute;
     width: 100%;
-    height: 3536px;
     background-color: rgba(232, 241, 241, 1);
     overflow: hidden;
     --web-view-name: Home;
@@ -84,6 +83,13 @@ padding: 50px !important;
     font-weight: 400;
     color: #fff;
 }
+.nape-section-card{
+    /* border: 1px solid rgba(243, 243, 243, 0.781); */
+}
+.hard-row{
+    color: #fff !important;
+    background-color: #fff !important;
+}
 #Component_20___1 {
     position: absolute;
     width: 29.121px;
@@ -92,7 +98,16 @@ padding: 50px !important;
     top: 77px;
    
 }
-
+#footer{
+    min-height: 512px !important;
+}
+/**NAPE Colour styling**/
+.btn-nape-color{
+    background-color: #2F7977 !important;
+    color: white !important;
+    font-weight: 600 !important;
+    padding: 10px !important;
+}
 /* .Rectangle_250 {
     position: absolute;
    
