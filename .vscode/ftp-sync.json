@@ -1,0 +1,27 @@
+{
+    "remotePath": "./napeypconnect.org",
+    "host": "access796154357.webspace-data.io",
+    "username": "ftp98394650-0",
+    "password": "Developer#123",
+    "port": 990,
+    "secure": false,
+    "protocol": "ftps",
+    "uploadOnSave": false,
+    "passive": false,
+    "debug": false,
+    "privateKeyPath": null,
+    "passphrase": null,
+    "agent": null,
+    "allow": [],
+    "ignore": [
+        "\\.vscode",
+        "\\.git",
+        "\\.DS_Store"
+    ],
+    "generatedFiles": {
+        "extensionsToInclude": [
+            ""
+        ],
+        "path": ""
+    }
+}
