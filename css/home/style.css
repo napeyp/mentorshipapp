@@ -109,6 +109,16 @@ li.nav-item {
   font-weight: 600 !important;
   padding: 10px !important;
 }
+.btn-nape-white-color{
+ background-color: #E4E4E4  !important;
+ color:#2f7977 !important;
+}
+.btn-nape-big{
+  height: 48px !important;
+  width: 202.5px !important;
+  font-weight: 900 !important;
+  font-size: larger;
+}
 .bg-white-nape{
   background-color: #FFFFFF !important;
 }
