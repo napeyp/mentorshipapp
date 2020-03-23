@@ -109,9 +109,23 @@ li.nav-item {
   font-weight: 600 !important;
   padding: 10px !important;
 }
+.nape-light-green-card{
+  background-color: #E8F1F1 !important;
+  padding: 30px !important;
+}
 .btn-nape-white-color{
  background-color: #E4E4E4  !important;
  color:#2f7977 !important;
+}
+.btn-nape-all-white-bg{
+  background-color: #FFFFFF !important;
+  border-radius: 5px;
+  border: 2px;
+  margin: 10px !important;
+  padding: 5px 30px !important;
+  min-width: 120px !important;
+  border-color: hsla(0,0%,60%,.2);
+box-shadow: 0 2px 2px 0 rgba(0,0,0,.14),0 3px 1px -2px rgba(0,0,0,.2),0 1px 5px 0 rgba(0,0,0,.12);
 }
 .btn-nape-big{
   height: 48px !important;
